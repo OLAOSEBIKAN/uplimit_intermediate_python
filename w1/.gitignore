@@ -1,3 +1,6 @@
 data
 __pycache__
 .pytest_cache
+constants.cpython-310.py
+global_utils.cpython-310.pyc
+.gitignore
