@@ -22,5 +22,5 @@ PYTHONPATH=../ python main.py --type bg
 
 # Start FastAPI server
 ````
-PYTHONPATH=.. uvicorn server:app --workers 2
+PYTHONPATH=.. python -m uvicorn server:app --workers 2 --host 0.0.0.0
 ````
